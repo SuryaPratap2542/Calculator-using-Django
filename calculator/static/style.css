@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    background: #69bcd3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.cal{
+    background:#1c6155 ;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: -8px -8px 15px rgba(186, 219, 215, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background:rgb(214, 93, 93); 
+    font-size: 20px;
+    color:#c3ccce;
+    cursor: pointer;
+    margin: 10px;
+}
+.val{
+    font-family: serif;
+    color: #bad8e0;
+}
+.calc{
+    background-color: aqua;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 16px 130px 16px 130px ;
+    box-shadow: 0px 0px 10px 3px rgb(253 249 249 / 89%), 0px 1px 4px 1px rgb(253 249 249 / 89%);
+
+}
+.opt{
+    background-color: antiquewhite;
+    font-size: 20px;
+    width: 70px;
+    height: 40px;
+    
+    border-radius: 5px;
+}
+h4{
+    color: blue;
+}
